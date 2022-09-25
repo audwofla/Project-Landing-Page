@@ -46,7 +46,7 @@ body {
 }
 .left p {
     font-size: 18px;
-    max-width: 500px;   
+    max-width: 450px;   
 } 
 .firstbutton button{
     display: flex;
@@ -76,6 +76,8 @@ h3 {
     color: #F9FAF8;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0px;
+    max-width: 300px;
 }
 
 .middle {
