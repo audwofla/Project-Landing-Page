@@ -102,7 +102,9 @@ h3 {
     
 }
 .imagetext {
-    font-size: 12px;
+    font-size: 14px;
+    padding-top: 4px;
+
 }
 .image2 {
     min-height: 120px;
