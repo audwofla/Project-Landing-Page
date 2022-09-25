@@ -30,6 +30,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
+    flex-direction: row;
     align-items: center; 
 }
 .left, .image{
@@ -46,8 +47,10 @@ body {
 .left p {
     font-size: 18px;   
 } 
-button {
-    max-width: 100px;
+.firstbutton button{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px 2px 20px;
     min-height: 30px;
     background-color: #3882f6;
     border-radius: 6px;
@@ -78,13 +81,46 @@ h3 {
     background-color: #E5E7EB;
     color: #1F2937;
 }
-#actualquote {
+.quote #actualquote {
     text-align: left;
-    padding 50px 100px 50px 100px;
+    padding: 50px 200px 50px 200px;
+    font-size: 24px;
+    
+}
+.thor {
+    padding: 0px 200px 50px 200px;
+    text-align: right;
+
+}
+
+.signup{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around ;
+    border-radius: 6px;
+    color: #E5E7EB;
+    flex: auto;
+    margin: 50px 175px 50px 175px;
+    padding: 20px 50px 20px 50px;
+    align-items: center;
+}
+.secondbutton button {
+    max-width: 150px;
+    background-color:#3882f6;
+    color:#E5E7EB;
+    border-radius: 4px;
+    border-color: #E5E7EB;
+    border: 1px solid;
+    padding: 3px 18px 3px 18px;
+    
 }
 .footer {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
-    padding: 10px;
+    padding: 30px 0px 30px 0px;
+    align-items: center;
+    justify-content: center;
+
 }
