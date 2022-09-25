@@ -40,12 +40,13 @@ body {
     margin: 50px;
     
 }
-.image {
+.image1 {
     min-width: 200px;
     
 }
 .left p {
-    font-size: 18px;   
+    font-size: 18px;
+    max-width: 500px;   
 } 
 .firstbutton button{
     display: flex;
@@ -75,6 +76,45 @@ h3 {
     color: #F9FAF8;
     display: flex;
     flex-wrap: wrap;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 150px 100px 150px;
+}
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.middlecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    max-width: 120px;
+    margin: 25px;
+    text-align: center;
+    
+}
+.imagetext {
+    font-size: 12px;
+}
+.image2 {
+    min-height: 120px;
+    max-height: 120px;
+    max-width: 120px;
+    min-width: 120px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #3882f6;
+}
+.container {
+    display: flex;
 }
 
 .quote {
